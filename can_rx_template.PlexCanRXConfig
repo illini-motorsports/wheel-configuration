@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfCAN_Data_Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CAN_Data_Item>
+    <label>nmot</label>
+    <enabled>1</enabled>
+    <function>1</function>
+    <internal_units>5</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>0</reference_idx>
+    <previous_idx>0</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>6000</gauge_mid>
+    <gauge_high>14000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>nmot</LABEL>
+    <FUNCTION>RPM</FUNCTION>
+    <INTERNAL_UNITS>RPM x 1</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 RPM</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>16</id>
+    <length>2</length>
+    <start_byte>0</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>false</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>10</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>UInt16</TYPE>
+    <START>0</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>slow</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>ath</label>
+    <enabled>1</enabled>
+    <function>0</function>
+    <internal_units>8</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>1</reference_idx>
+    <previous_idx>1</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>ath</LABEL>
+    <FUNCTION>---</FUNCTION>
+    <INTERNAL_UNITS>POSITION x 1%</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 %</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>16</id>
+    <length>2</length>
+    <start_byte>2</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>10</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>10</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>2</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/10+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>slow</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>lambda</label>
+    <enabled>1</enabled>
+    <function>6</function>
+    <internal_units>3</internal_units>
+    <display_units>2</display_units>
+    <reference_idx>2</reference_idx>
+    <previous_idx>2</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>lambda</LABEL>
+    <FUNCTION>LAMBDA</FUNCTION>
+    <INTERNAL_UNITS>COUNT x 0.001</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0.00</DISPLAY_UNITS>
+    <LOW>0.00</LOW>
+    <HIGH>0.00</HIGH>
+    <GAUGE_MIN>-1.00</GAUGE_MIN>
+    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <REVIEW_MIN>0.00</REVIEW_MIN>
+    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>16</id>
+    <length>2</length>
+    <start_byte>4</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>10</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>4</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>slow</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>ub</label>
+    <enabled>1</enabled>
+    <function>16</function>
+    <internal_units>24</internal_units>
+    <display_units>2</display_units>
+    <reference_idx>3</reference_idx>
+    <previous_idx>3</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>ub</LABEL>
+    <FUNCTION>BATTERY V</FUNCTION>
+    <INTERNAL_UNITS>VOLTAGE x 0.01V</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0.00 V</DISPLAY_UNITS>
+    <LOW>0.00</LOW>
+    <HIGH>0.00</HIGH>
+    <GAUGE_MIN>-10.00</GAUGE_MIN>
+    <GAUGE_MAX>10.00</GAUGE_MAX>
+    <REVIEW_MIN>0.00</REVIEW_MIN>
+    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>16</id>
+    <length>2</length>
+    <start_byte>6</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>10</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>6</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>slow</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>tmot</label>
+    <enabled>1</enabled>
+    <function>11</function>
+    <internal_units>13</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>4</reference_idx>
+    <previous_idx>4</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>tmot</LABEL>
+    <FUNCTION>WATER TEMP</FUNCTION>
+    <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>17</id>
+    <length>2</length>
+    <start_byte>0</start_byte>
+    <little_endian>true</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>10</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>11</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>0</START>
+    <ENDIAN>LSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/10+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>medium</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>toil</label>
+    <enabled>1</enabled>
+    <function>12</function>
+    <internal_units>13</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>5</reference_idx>
+    <previous_idx>5</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>toil</LABEL>
+    <FUNCTION>OIL TEMP</FUNCTION>
+    <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>17</id>
+    <length>2</length>
+    <start_byte>2</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>10</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>11</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>2</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/10+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>medium</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>tint</label>
+    <enabled>1</enabled>
+    <function>14</function>
+    <internal_units>13</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>6</reference_idx>
+    <previous_idx>6</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>tint</LABEL>
+    <FUNCTION>AIR TEMP</FUNCTION>
+    <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>17</id>
+    <length>2</length>
+    <start_byte>4</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>10</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>11</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>4</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/10+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>medium</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>tfuel</label>
+    <enabled>1</enabled>
+    <function>15</function>
+    <internal_units>13</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>7</reference_idx>
+    <previous_idx>7</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>tfuel</LABEL>
+    <FUNCTION>FUEL TEMP</FUNCTION>
+    <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>17</id>
+    <length>2</length>
+    <start_byte>6</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>false</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>10</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>11</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>UInt16</TYPE>
+    <START>6</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/10+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>medium</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>pamb</label>
+    <enabled>1</enabled>
+    <function>0</function>
+    <internal_units>12</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>8</reference_idx>
+    <previous_idx>8</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>pamb</LABEL>
+    <FUNCTION>---</FUNCTION>
+    <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0 bar</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1</GAUGE_MIN>
+    <GAUGE_MAX>1</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>18</id>
+    <length>2</length>
+    <start_byte>0</start_byte>
+    <little_endian>true</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>false</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>12</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>UInt16</TYPE>
+    <START>0</START>
+    <ENDIAN>LSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>fast</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>poil</label>
+    <enabled>1</enabled>
+    <function>4</function>
+    <internal_units>12</internal_units>
+    <display_units>2</display_units>
+    <reference_idx>9</reference_idx>
+    <previous_idx>9</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>poil</LABEL>
+    <FUNCTION>OIL PRES</FUNCTION>
+    <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0.00 bar</DISPLAY_UNITS>
+    <LOW>0.00</LOW>
+    <HIGH>0.00</HIGH>
+    <GAUGE_MIN>-1.00</GAUGE_MIN>
+    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <REVIEW_MIN>0.00</REVIEW_MIN>
+    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>18</id>
+    <length>2</length>
+    <start_byte>2</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>12</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>2</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>fast</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>p22</label>
+    <enabled>1</enabled>
+    <function>0</function>
+    <internal_units>12</internal_units>
+    <display_units>2</display_units>
+    <reference_idx>10</reference_idx>
+    <previous_idx>10</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>p22</LABEL>
+    <FUNCTION>---</FUNCTION>
+    <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0.00 bar</DISPLAY_UNITS>
+    <LOW>0.00</LOW>
+    <HIGH>0.00</HIGH>
+    <GAUGE_MIN>-1.00</GAUGE_MIN>
+    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <REVIEW_MIN>0.00</REVIEW_MIN>
+    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>18</id>
+    <length>2</length>
+    <start_byte>4</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>12</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>4</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>fast</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>pfuel</label>
+    <enabled>1</enabled>
+    <function>5</function>
+    <internal_units>12</internal_units>
+    <display_units>2</display_units>
+    <reference_idx>11</reference_idx>
+    <previous_idx>11</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>pfuel</LABEL>
+    <FUNCTION>FUEL PRES</FUNCTION>
+    <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0.00 bar</DISPLAY_UNITS>
+    <LOW>0.00</LOW>
+    <HIGH>0.00</HIGH>
+    <GAUGE_MIN>-1.00</GAUGE_MIN>
+    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <REVIEW_MIN>0.00</REVIEW_MIN>
+    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>18</id>
+    <length>2</length>
+    <start_byte>6</start_byte>
+    <little_endian>false</little_endian>
+    <maskhex>65535</maskhex>
+    <signed>true</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>12</ID_hex>
+    <LENGTH>2</LENGTH>
+    <TYPE>Int16</TYPE>
+    <START>6</START>
+    <ENDIAN>MSB</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FFFF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x18DB33F1</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>00</req_PID>
+    <req_SPEED>fast</req_SPEED>
+    <TEST_INPUT>0x0000</TEST_INPUT>
+  </CAN_Data_Item>
+  <CAN_Data_Item>
+    <label>GCM_Gear</label>
+    <enabled>1</enabled>
+    <function>40</function>
+    <internal_units>0</internal_units>
+    <display_units>0</display_units>
+    <reference_idx>12</reference_idx>
+    <previous_idx>12</previous_idx>
+    <limit_low>0</limit_low>
+    <limit_high>0</limit_high>
+    <gauge_low>-1000</gauge_low>
+    <gauge_mid>0</gauge_mid>
+    <gauge_high>1000</gauge_high>
+    <review_min>0</review_min>
+    <review_max>0</review_max>
+    <display_refresh>0</display_refresh>
+    <display_filter>0</display_filter>
+    <displayrefreshrates>
+      <string>50Hz</string>
+      <string>25Hz</string>
+      <string>10Hz</string>
+      <string>5Hz</string>
+      <string>1Hz</string>
+    </displayrefreshrates>
+    <displayfiltermodes>
+      <string>NO FILTER</string>
+      <string>AVERAGE 2 SAMPLES</string>
+      <string>AVERAGE 4 SAMPLES</string>
+      <string>AVERAGE 8 SAMPLES</string>
+      <string>AVERAGE 16 SAMPLES</string>
+    </displayfiltermodes>
+    <log_rate>6</log_rate>
+    <parentbitfieldtype>0</parentbitfieldtype>
+    <dtype>CAN1</dtype>
+    <LABEL>GCM_Gear</LABEL>
+    <FUNCTION>GEAR</FUNCTION>
+    <INTERNAL_UNITS>COUNT x 1</INTERNAL_UNITS>
+    <DISPLAY_UNITS>0</DISPLAY_UNITS>
+    <LOW>0</LOW>
+    <HIGH>0</HIGH>
+    <GAUGE_MIN>-1000</GAUGE_MIN>
+    <GAUGE_MAX>1000</GAUGE_MAX>
+    <REVIEW_MIN>0</REVIEW_MIN>
+    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+    <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+    <CHANGED>false</CHANGED>
+    <DIFFERENT>false</DIFFERENT>
+    <id>513</id>
+    <length>1</length>
+    <start_byte>0</start_byte>
+    <little_endian>true</little_endian>
+    <maskhex>255</maskhex>
+    <signed>false</signed>
+    <sign_shift>0</sign_shift>
+    <multiplier>1</multiplier>
+    <divisor>1</divisor>
+    <offset>0</offset>
+    <is_compound>false</is_compound>
+    <compound_idx>0</compound_idx>
+    <compound_id_top_halfbyte>false</compound_id_top_halfbyte>
+    <is_obd_msg>false</is_obd_msg>
+    <can_device_name>0</can_device_name>
+    <CAN_Item_Editable>1</CAN_Item_Editable>
+    <CAN_Item_Full_Details_Visible>1</CAN_Item_Full_Details_Visible>
+    <ID_hex>201</ID_hex>
+    <LENGTH>1</LENGTH>
+    <TYPE>UInt8</TYPE>
+    <START>0</START>
+    <ENDIAN>---</ENDIAN>
+    <SIGN_MODE>2s COMP, top bit</SIGN_MODE>
+    <MASK>FF</MASK>
+    <FACTORS>*1/1+0</FACTORS>
+    <POLARITY>NORMAL</POLARITY>
+    <ENUMERATION>false</ENUMERATION>
+    <ENUM_VALUE />
+    <FLAG_BIT>undefined</FLAG_BIT>
+    <COMPOUND_MSG>false</COMPOUND_MSG>
+    <COMPOUND_ID>0x00</COMPOUND_ID>
+    <req_ID>0x7E0</req_ID>
+    <req_MODE>00</req_MODE>
+    <req_PID>02</req_PID>
+    <req_SPEED>medium</req_SPEED>
+    <TEST_INPUT>0x00</TEST_INPUT>
+  </CAN_Data_Item>
+</ArrayOfCAN_Data_Item>
