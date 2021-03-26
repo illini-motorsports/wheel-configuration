@@ -5,16 +5,16 @@
     <enabled>1</enabled>
     <function>1</function>
     <internal_units>5</internal_units>
-    <display_units>0</display_units>
+    <display_units>2</display_units>
     <reference_idx>0</reference_idx>
     <previous_idx>0</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
+    <limit_low>500</limit_low>
+    <limit_high>8000</limit_high>
     <gauge_low>0</gauge_low>
-    <gauge_mid>6000</gauge_mid>
-    <gauge_high>14000</gauge_high>
+    <gauge_mid>4000</gauge_mid>
+    <gauge_high>8000</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>10000</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -37,13 +37,13 @@
     <LABEL>nmot</LABEL>
     <FUNCTION>RPM</FUNCTION>
     <INTERNAL_UNITS>RPM x 1</INTERNAL_UNITS>
-    <DISPLAY_UNITS>0 RPM</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
-    <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <DISPLAY_UNITS>0.0 x1000 RPM</DISPLAY_UNITS>
+    <LOW>0.5</LOW>
+    <HIGH>14.0</HIGH>
+    <GAUGE_MIN>0.0</GAUGE_MIN>
+    <GAUGE_MAX>14.0</GAUGE_MAX>
+    <REVIEW_MIN>0.0</REVIEW_MIN>
+    <REVIEW_MAX>10.0</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -88,18 +88,18 @@
   <CAN_Data_Item>
     <label>ath</label>
     <enabled>1</enabled>
-    <function>0</function>
+    <function>2</function>
     <internal_units>8</internal_units>
     <display_units>0</display_units>
     <reference_idx>1</reference_idx>
     <previous_idx>1</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>5</limit_low>
+    <limit_high>90</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>50</gauge_mid>
+    <gauge_high>100</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>100</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -120,15 +120,15 @@
     <parentbitfieldtype>0</parentbitfieldtype>
     <dtype>CAN1</dtype>
     <LABEL>ath</LABEL>
-    <FUNCTION>---</FUNCTION>
+    <FUNCTION>TPS</FUNCTION>
     <INTERNAL_UNITS>POSITION x 1%</INTERNAL_UNITS>
     <DISPLAY_UNITS>0 %</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
+    <LOW>5</LOW>
+    <HIGH>90</HIGH>
+    <GAUGE_MIN>0</GAUGE_MIN>
+    <GAUGE_MAX>100</GAUGE_MAX>
     <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <REVIEW_MAX>100</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -178,13 +178,13 @@
     <display_units>2</display_units>
     <reference_idx>2</reference_idx>
     <previous_idx>2</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
-    <review_min>0</review_min>
-    <review_max>0</review_max>
+    <limit_low>750</limit_low>
+    <limit_high>950</limit_high>
+    <gauge_low>700</gauge_low>
+    <gauge_mid>900</gauge_mid>
+    <gauge_high>1100</gauge_high>
+    <review_min>700</review_min>
+    <review_max>1100</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -208,12 +208,12 @@
     <FUNCTION>LAMBDA</FUNCTION>
     <INTERNAL_UNITS>COUNT x 0.001</INTERNAL_UNITS>
     <DISPLAY_UNITS>0.00</DISPLAY_UNITS>
-    <LOW>0.00</LOW>
-    <HIGH>0.00</HIGH>
-    <GAUGE_MIN>-1.00</GAUGE_MIN>
-    <GAUGE_MAX>1.00</GAUGE_MAX>
-    <REVIEW_MIN>0.00</REVIEW_MIN>
-    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <LOW>0.75</LOW>
+    <HIGH>0.95</HIGH>
+    <GAUGE_MIN>0.70</GAUGE_MIN>
+    <GAUGE_MAX>1.10</GAUGE_MAX>
+    <REVIEW_MIN>0.70</REVIEW_MIN>
+    <REVIEW_MAX>1.10</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -263,13 +263,13 @@
     <display_units>2</display_units>
     <reference_idx>3</reference_idx>
     <previous_idx>3</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>1200</limit_low>
+    <limit_high>1600</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>800</gauge_mid>
+    <gauge_high>1600</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>1600</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -293,12 +293,12 @@
     <FUNCTION>BATTERY V</FUNCTION>
     <INTERNAL_UNITS>VOLTAGE x 0.01V</INTERNAL_UNITS>
     <DISPLAY_UNITS>0.00 V</DISPLAY_UNITS>
-    <LOW>0.00</LOW>
-    <HIGH>0.00</HIGH>
-    <GAUGE_MIN>-10.00</GAUGE_MIN>
-    <GAUGE_MAX>10.00</GAUGE_MAX>
+    <LOW>12.00</LOW>
+    <HIGH>16.00</HIGH>
+    <GAUGE_MIN>0.00</GAUGE_MIN>
+    <GAUGE_MAX>16.00</GAUGE_MAX>
     <REVIEW_MIN>0.00</REVIEW_MIN>
-    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <REVIEW_MAX>16.00</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -348,13 +348,13 @@
     <display_units>0</display_units>
     <reference_idx>4</reference_idx>
     <previous_idx>4</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>60</limit_low>
+    <limit_high>100</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>60</gauge_mid>
+    <gauge_high>120</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>120</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -378,12 +378,12 @@
     <FUNCTION>WATER TEMP</FUNCTION>
     <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
     <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
+    <LOW>60</LOW>
+    <HIGH>100</HIGH>
+    <GAUGE_MIN>0</GAUGE_MIN>
+    <GAUGE_MAX>120</GAUGE_MAX>
     <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <REVIEW_MAX>120</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -433,13 +433,13 @@
     <display_units>0</display_units>
     <reference_idx>5</reference_idx>
     <previous_idx>5</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>70</limit_low>
+    <limit_high>120</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>75</gauge_mid>
+    <gauge_high>150</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>150</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -463,12 +463,12 @@
     <FUNCTION>OIL TEMP</FUNCTION>
     <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
     <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
+    <LOW>70</LOW>
+    <HIGH>120</HIGH>
+    <GAUGE_MIN>0</GAUGE_MIN>
+    <GAUGE_MAX>150</GAUGE_MAX>
     <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <REVIEW_MAX>150</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -518,13 +518,13 @@
     <display_units>0</display_units>
     <reference_idx>6</reference_idx>
     <previous_idx>6</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>15</limit_low>
+    <limit_high>70</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>50</gauge_mid>
+    <gauge_high>100</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>100</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -548,12 +548,12 @@
     <FUNCTION>AIR TEMP</FUNCTION>
     <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
     <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
+    <LOW>15</LOW>
+    <HIGH>70</HIGH>
+    <GAUGE_MIN>0</GAUGE_MIN>
+    <GAUGE_MAX>100</GAUGE_MAX>
     <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <REVIEW_MAX>100</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -603,13 +603,13 @@
     <display_units>0</display_units>
     <reference_idx>7</reference_idx>
     <previous_idx>7</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>15</limit_low>
+    <limit_high>50</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>50</gauge_mid>
+    <gauge_high>100</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>100</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -633,12 +633,12 @@
     <FUNCTION>FUEL TEMP</FUNCTION>
     <INTERNAL_UNITS>TEMPERATURE x 1degC</INTERNAL_UNITS>
     <DISPLAY_UNITS>0 deg C</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
+    <LOW>15</LOW>
+    <HIGH>50</HIGH>
+    <GAUGE_MIN>0</GAUGE_MIN>
+    <GAUGE_MAX>100</GAUGE_MAX>
     <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <REVIEW_MAX>100</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -773,13 +773,13 @@
     <display_units>2</display_units>
     <reference_idx>9</reference_idx>
     <previous_idx>9</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>1000</limit_low>
+    <limit_high>8000</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>5000</gauge_mid>
+    <gauge_high>10000</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>10000</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -803,12 +803,12 @@
     <FUNCTION>OIL PRES</FUNCTION>
     <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
     <DISPLAY_UNITS>0.00 bar</DISPLAY_UNITS>
-    <LOW>0.00</LOW>
-    <HIGH>0.00</HIGH>
-    <GAUGE_MIN>-1.00</GAUGE_MIN>
-    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <LOW>1.00</LOW>
+    <HIGH>8.00</HIGH>
+    <GAUGE_MIN>0.00</GAUGE_MIN>
+    <GAUGE_MAX>10.00</GAUGE_MAX>
     <REVIEW_MIN>0.00</REVIEW_MIN>
-    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <REVIEW_MAX>10.00</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -853,18 +853,18 @@
   <CAN_Data_Item>
     <label>p22</label>
     <enabled>1</enabled>
-    <function>0</function>
+    <function>3</function>
     <internal_units>12</internal_units>
     <display_units>2</display_units>
     <reference_idx>10</reference_idx>
     <previous_idx>10</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>800</limit_low>
+    <limit_high>2500</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>2000</gauge_mid>
+    <gauge_high>4000</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>4000</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -885,15 +885,15 @@
     <parentbitfieldtype>0</parentbitfieldtype>
     <dtype>CAN1</dtype>
     <LABEL>p22</LABEL>
-    <FUNCTION>---</FUNCTION>
+    <FUNCTION>MAP</FUNCTION>
     <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
     <DISPLAY_UNITS>0.00 bar</DISPLAY_UNITS>
-    <LOW>0.00</LOW>
-    <HIGH>0.00</HIGH>
-    <GAUGE_MIN>-1.00</GAUGE_MIN>
-    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <LOW>0.80</LOW>
+    <HIGH>2.50</HIGH>
+    <GAUGE_MIN>0.00</GAUGE_MIN>
+    <GAUGE_MAX>4.00</GAUGE_MAX>
     <REVIEW_MIN>0.00</REVIEW_MIN>
-    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <REVIEW_MAX>4.00</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -943,13 +943,13 @@
     <display_units>2</display_units>
     <reference_idx>11</reference_idx>
     <previous_idx>11</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>2000</limit_low>
+    <limit_high>8000</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>5000</gauge_mid>
+    <gauge_high>10000</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>10000</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -973,12 +973,12 @@
     <FUNCTION>FUEL PRES</FUNCTION>
     <INTERNAL_UNITS>PRESSURE x 1mbar</INTERNAL_UNITS>
     <DISPLAY_UNITS>0.00 bar</DISPLAY_UNITS>
-    <LOW>0.00</LOW>
-    <HIGH>0.00</HIGH>
-    <GAUGE_MIN>-1.00</GAUGE_MIN>
-    <GAUGE_MAX>1.00</GAUGE_MAX>
+    <LOW>2.00</LOW>
+    <HIGH>8.00</HIGH>
+    <GAUGE_MIN>0.00</GAUGE_MIN>
+    <GAUGE_MAX>10.00</GAUGE_MAX>
     <REVIEW_MIN>0.00</REVIEW_MIN>
-    <REVIEW_MAX>0.00</REVIEW_MAX>
+    <REVIEW_MAX>10.00</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
@@ -1028,13 +1028,13 @@
     <display_units>0</display_units>
     <reference_idx>12</reference_idx>
     <previous_idx>12</previous_idx>
-    <limit_low>0</limit_low>
-    <limit_high>0</limit_high>
-    <gauge_low>-1000</gauge_low>
-    <gauge_mid>0</gauge_mid>
-    <gauge_high>1000</gauge_high>
+    <limit_low>-1</limit_low>
+    <limit_high>8</limit_high>
+    <gauge_low>0</gauge_low>
+    <gauge_mid>4</gauge_mid>
+    <gauge_high>8</gauge_high>
     <review_min>0</review_min>
-    <review_max>0</review_max>
+    <review_max>8</review_max>
     <display_refresh>0</display_refresh>
     <display_filter>0</display_filter>
     <displayrefreshrates>
@@ -1058,12 +1058,12 @@
     <FUNCTION>GEAR</FUNCTION>
     <INTERNAL_UNITS>COUNT x 1</INTERNAL_UNITS>
     <DISPLAY_UNITS>0</DISPLAY_UNITS>
-    <LOW>0</LOW>
-    <HIGH>0</HIGH>
-    <GAUGE_MIN>-1000</GAUGE_MIN>
-    <GAUGE_MAX>1000</GAUGE_MAX>
+    <LOW>-1</LOW>
+    <HIGH>8</HIGH>
+    <GAUGE_MIN>0</GAUGE_MIN>
+    <GAUGE_MAX>8</GAUGE_MAX>
     <REVIEW_MIN>0</REVIEW_MIN>
-    <REVIEW_MAX>0</REVIEW_MAX>
+    <REVIEW_MAX>8</REVIEW_MAX>
     <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
     <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
     <CHANGED>false</CHANGED>
