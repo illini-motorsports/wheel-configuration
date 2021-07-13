@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ANALOG_Input xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>PAGE CONTROL</label>
+  <enabled>1</enabled>
+  <function>47</function>
+  <internal_units>0</internal_units>
+  <display_units>0</display_units>
+  <reference_idx>255</reference_idx>
+  <previous_idx>25</previous_idx>
+  <limit_low>-32768</limit_low>
+  <limit_high>32767</limit_high>
+  <gauge_low>-1000</gauge_low>
+  <gauge_mid>0</gauge_mid>
+  <gauge_high>1000</gauge_high>
+  <review_min>-1000</review_min>
+  <review_max>1000</review_max>
+  <display_refresh>0</display_refresh>
+  <display_filter>0</display_filter>
+  <displayrefreshrates>
+    <string>50Hz</string>
+    <string>25Hz</string>
+    <string>10Hz</string>
+    <string>5Hz</string>
+    <string>1Hz</string>
+  </displayrefreshrates>
+  <displayfiltermodes>
+    <string>NO FILTER</string>
+    <string>AVERAGE 2 SAMPLES</string>
+    <string>AVERAGE 4 SAMPLES</string>
+    <string>AVERAGE 8 SAMPLES</string>
+    <string>AVERAGE 16 SAMPLES</string>
+  </displayfiltermodes>
+  <log_rate>6</log_rate>
+  <RefLogBuffer />
+  <parentbitfieldtype>0</parentbitfieldtype>
+  <dtype>ANA</dtype>
+  <LABEL>PAGE CONTROL</LABEL>
+  <FUNCTION>PAGE CONTROL</FUNCTION>
+  <INTERNAL_UNITS>COUNT x 1</INTERNAL_UNITS>
+  <DISPLAY_UNITS>0</DISPLAY_UNITS>
+  <LOW>-32768</LOW>
+  <HIGH>32767</HIGH>
+  <GAUGE_MIN>-1000</GAUGE_MIN>
+  <GAUGE_MAX>1000</GAUGE_MAX>
+  <REVIEW_MIN>-1000</REVIEW_MIN>
+  <REVIEW_MAX>1000</REVIEW_MAX>
+  <DISPLAY_REFRESH>50Hz</DISPLAY_REFRESH>
+  <DISPLAY_FILTER>NO FILTER</DISPLAY_FILTER>
+  <CHANGED>true</CHANGED>
+  <DIFFERENT>false</DIFFERENT>
+  <filter>0</filter>
+  <input_number>0</input_number>
+  <connector />
+  <pin>0</pin>
+  <pull_up_available>0</pull_up_available>
+  <pull_up_enabled>0</pull_up_enabled>
+  <input_range>0</input_range>
+  <_SENSOR_OUT>
+    <short>5</short>
+    <short>4</short>
+    <short>4</short>
+    <short>3</short>
+    <short>3</short>
+    <short>2</short>
+    <short>2</short>
+    <short>1</short>
+    <short>1</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+  </_SENSOR_OUT>
+  <_SENSOR_mV>
+    <unsignedShort>5</unsignedShort>
+    <unsignedShort>45</unsignedShort>
+    <unsignedShort>445</unsignedShort>
+    <unsignedShort>965</unsignedShort>
+    <unsignedShort>1550</unsignedShort>
+    <unsignedShort>2240</unsignedShort>
+    <unsignedShort>2955</unsignedShort>
+    <unsignedShort>3625</unsignedShort>
+    <unsignedShort>4275</unsignedShort>
+    <unsignedShort>4885</unsignedShort>
+    <unsignedShort>4975</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+    <unsignedShort>5000</unsignedShort>
+  </_SENSOR_mV>
+  <ENABLED>true</ENABLED>
+</ANALOG_Input>
